@@ -1,0 +1,28 @@
+ body{
+  font-family: sans-serif;
+  
+}
+
+.color-picker{
+font-family: serif;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.div2{
+  width: 3oopx;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+transition: ease 0.25;
+box-shadow: 10px;
+}
+
+input[type="color"]{
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+}
